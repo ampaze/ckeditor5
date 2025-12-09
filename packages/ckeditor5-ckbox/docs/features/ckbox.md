@@ -26,11 +26,16 @@ It handles file uploads and significantly reduces the effort required to build a
 			</p>
 			<div id='snippet-ckbox-ckeditor'></div>
 		</div>
+		<p>
+				<snippet-footer>
+					This demo presents a limited set of features. Visit the {@link examples/builds/full-featured-editor feature-rich editor example} to see more in action.
+				</snippet-footer>
+		</p>
 	</ck:tab>
 	<ck:tab label='Upload widget'>
 		<div class='doc live-snippet'>
 			<p>
-				CKBox is not limited to CKEditor 5 integration. The upload widget is a compact, standalone component that you can embed into any application to offload file upload functionality. To upload files, simply drag and drop them into the uploader area, or use the button to select files from your local filesystem.
+				CKBox is not limited to CKEditor&nbsp;5 integration. The upload widget is a compact, standalone component that you can embed into any application to offload file upload functionality. To upload files, simply drag and drop them into the uploader area, or use the button to select files from your local filesystem.
 			</p>
 			<div id="snippet-ckbox-uploader-widget"></div>
 		</div>
@@ -38,7 +43,7 @@ It handles file uploads and significantly reduces the effort required to build a
 	<ck:tab label='Standalone application'>
         <div class='doc live-snippet'>
 			<p>
-				CKBox can also operate as a completely standalone file manager application. This demo presents a simple button that triggers the CKBox file manager in dialog mode, demonstrating how CKBox can be integrated into any web application independently of CKEditor 5. CKBox can be embedded as a <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/dialog-mode.html'>dialog</a>, <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/inline-mode.html'>inline component</a> or <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/full-page-mode.html'>full-page application</a>.
+				CKBox can also operate as a completely standalone file manager application. This demo presents a simple button that triggers the CKBox file manager in dialog mode, demonstrating how CKBox can be integrated into any web application independently of CKEditor&nbsp;5. CKBox can be embedded as a <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/dialog-mode.html'>dialog</a>, <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/inline-mode.html'>an inline component</a>, or <a target='_blank' href='https://ckeditor.com/docs/ckbox/latest/examples/display/full-page-mode.html'>a full-page application</a>.
 			</p>
 			<div id='snippet-ckbox-standalone'>
 				<label>Click on the button to open the File Manager</label>
